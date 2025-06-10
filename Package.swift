@@ -5,13 +5,13 @@ let package = Package(
     name: "ClairGustoKit",
     platforms: [.iOS(.v16)],
     products: [
-        .library(name: "ClairGustoKit", targets: ["ClairClairGustoKit"]),
+        .library(name: "ClairGustoKit", targets: ["ClairGustoKit"]),
     ],
     targets: [
         .binaryTarget(
-            name: "Clair",
-            url: "https://github.com/getclair/clair-gusto-kit/releases/download/v1.0.0/ClairGustoKit.xcframework.zip",
-            checksum: "6a4beea370aa50649aa5c6a1380427952b4185e138c42d71dddfbcf8545ce1a3"
+            name: "ClairGustoKit",
+            url: "https://github.com/getclair/clair-gusto-kit/releases/download/v1.0.1/ClairGustoKit.xcframework.zip",
+            checksum: "7af25e23c1650c9f3c2a9bb4ecacc83b01a5ec414d5e586579813cf346afe484"
         ),
     ]
 )
