@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ClairGustoKit",
-            url: "https://github.com/getclair/clair-gusto-kit/releases/download/v1.0.1/ClairGustoKit.xcframework.zip",
-            checksum: "7af25e23c1650c9f3c2a9bb4ecacc83b01a5ec414d5e586579813cf346afe484"
+            url: "https://github.com/getclair/clair-gusto-kit/releases/download/v1.1.0/ClairGustoKit.xcframework.zip",
+            checksum: "844fe4778bc7cd89149667ee5fd9d5db61c4701f897b96c2cf9ecaa3ab20e507"
         ),
     ]
 )
